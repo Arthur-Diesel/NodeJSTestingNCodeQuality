@@ -1,0 +1,33 @@
+{
+    "name": "nodejstestingncodequality",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "test:report": "jest --coverage",
+        "test:verbose": "jest --verbose"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Arthur-Diesel/NodeJSTestingNCodeQuality.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Arthur-Diesel/NodeJSTestingNCodeQuality/issues"
+    },
+    "homepage": "https://github.com/Arthur-Diesel/NodeJSTestingNCodeQuality#readme",
+    "devDependencies": {
+        "@jest/globals": "^29.6.4",
+        "@types/node": "^20.5.4",
+        "@types/supertest": "^2.0.12",
+        "eslint": "^8.47.0",
+        "supertest": "^6.3.3",
+        "ts-jest": "^29.1.1"
+    },
+    "dependencies": {
+        "express": "^4.18.2"
+    }
+}
